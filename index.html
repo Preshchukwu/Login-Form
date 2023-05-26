@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="hidden-alert" id="success-alert">You have successfully Logged In</div>
+
+    <form>
+        <div class="label-and-input">
+            <label for="emailInput">Enter Your Email Address</label>
+            <input type="email" email id="emailInput" placeholder="Enter Your Email">
+        </div>
+
+        <div class="label-and-input">
+            <label for="passwordInput">Enter Your Password</label>
+            <input type="password" email id="passwordInput" placeholder="Enter Your Password">
+        </div>
+
+        <div class="alertMessage">
+            <p id="formNotice" class="notice"></p>
+        </div>
+
+        <div class="button-div">
+            <button class="myButton" id="myButton" type="button">Login</button>
+        </div>
+
+        
+    </form>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
